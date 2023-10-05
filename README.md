@@ -8,5 +8,5 @@ Experiment design:
   -Perform statistical analysis.
   -Find significant results.
 
-The results from this project showed that the Genetic Algorithm was superior to the A* Search Algorithm in all cases, having a higher average amount of dirt collected, using a t-test at the 5% significance level. 
+The results from this project showed that the Genetic Algorithm was superior to the A* Search Algorithm in all cases, having a higher average amount of dirt collected, using a t-test at the 5% significance level. Additionally, this was achieved in a faster run time. The results folder contains the boxplots illustrating the final results. 
 
