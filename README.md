@@ -18,4 +18,7 @@ The results from this project showed that the Genetic Algorithm was superior to 
 - An ideal run would not include a failed path, even if it had a high average amount of dirt. For example, if the robot ended up in a suboptimal destination or irretrievable, it would damage its lifetime amount of dirt collected. A pathfinding algorithm could be implemented to ensure it always ends at specfic location in the room would be useful.
 - From the above point, in terms of results a failed path could result in the fitness function being multiplied by 0 if the robot did not arrive at the specified location at the end of the cleaning session. This could lead to the GA creating fewer 'all or nothing' robots and could potentially even the score.
 - Adding in some more variation in objects and collisions: for example, allowing the robot to go underneath a table or sofa and potentially getting stuck.
-- Use of Machine Learning (in particular Reinforcement Learning) to train the robot to detect, identify and avoid objects. This could be done by simulating a camera or similar technology, such as LiDAR or ultrasound as an array of beams that allow the robot to 'see'. 
+- Use of Machine Learning (in particular Reinforcement Learning) to train the robot to detect, identify and avoid objects. This could be done by simulating a camera or similar technology, such as LiDAR or ultrasound as an array of beams that allow the robot to 'see'.
+
+## Running the Code 
+The code included in this repository is split into the Main Code files and the two algorithm files. Ensure they are all in the same directory and run the main file.
